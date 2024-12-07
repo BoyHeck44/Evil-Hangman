@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Game\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=len\ guesses\ showWords\ words
+comment1.target=Game(int,\ int,\ boolean,\ java.util.ArrayList)
+comment1.text=\r\n\ Starts\ the\ game\ and\ sets\ all\ variables\r\n\ \r\n\ @param\ len\ the\ length\ of\ the\ word\r\n\ @param\ guesses\ the\ total\ number\ of\ guesses\r\n\ @param\ showWords\ if\ the\ player\ wants\ to\ see\ total\ words\r\n\ @param\ words\ all\ words\ in\ the\ txt\ file\r\n
+comment2.params=
+comment2.target=void\ playGame()
+comment2.text=\r\n\ The\ main\ function\ that\ plays\ the\ game\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCurrentWord()
+comment3.text=\r\n\ Returns\ the\ current\ word\r\n\ \r\n\ @return\ the\ current\ state\ of\ the\ guessed\ word\r\n
+comment4.params=theGuess
+comment4.target=void\ guess(char)
+comment4.text=\r\n\ Guesses\ the\ letter\ chosen\ by\ the\ player\r\n\ \r\n\ @param\ theGuess\ the\ guess\ by\ the\ player\r\n
+comment5.params=theGuess
+comment5.target=java.util.Map\ generateWordFamilies(char)
+comment6.params=wordFamilies
+comment6.target=java.lang.String\ findLargestFamily(java.util.Map)
+comment7.params=familyKey\ theGuess
+comment7.target=void\ updateWord(java.lang.String,\ char)
+comment8.params=
+comment8.target=java.lang.String\ getRandomWord()
+numComments=9
